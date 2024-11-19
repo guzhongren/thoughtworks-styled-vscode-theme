@@ -4,7 +4,7 @@
   "description": "A Thoughtworks styled theme for Visual Studio Code",
   "repository": "https://github.com/guzhongren/thoughtworks-styled-vscode-theme",
   "LICENSE": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.95.0"
   },
