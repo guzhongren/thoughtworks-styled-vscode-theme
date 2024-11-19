@@ -1,0 +1,23 @@
+{
+  "name": "thoughtworks-styled-theme",
+  "displayName": "Thoughtworks Styled Theme",
+  "description": "A Thoughtworks styled theme for Visual Studio Code",
+  "repository": "https://github.com/guzhongren/thoughtworks-styled-vscode-theme",
+  "LICENSE": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Thoughtworks Styled Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/thoughtworks-styled-theme-color-theme.json"
+      }
+    ]
+  }
+}
