@@ -3,6 +3,7 @@
   "displayName": "Thoughtworks Styled Theme",
   "description": "A Thoughtworks styled theme for Visual Studio Code",
   "repository": "https://github.com/guzhongren/thoughtworks-styled-vscode-theme",
+  "publisher": "guzhongren",
   "LICENSE": "MIT",
   "version": "0.0.2",
   "engines": {
