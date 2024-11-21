@@ -85,7 +85,14 @@
     // 分隔线
     "activityBar.border": "#47a1ad",
     "sideBar.border": "#47a1ad",
-    "editorGroup.border": "#47a1ad"
+    "editorGroup.border": "#47a1ad",
+		// tab
+		"tab.activeBackground": "#f2617a",
+		"tab.inactiveBackground": "#003d4f",
+		"tab.border": "#6b9e78",
+		"editorGroupHeader.tabsBackground": "#003d4f",
+		"editorGroupHeader.border": "#003d4f"
+
   },
 	"tokenColors": [
 		{
