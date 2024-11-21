@@ -1,7 +1,6 @@
 {
 	"name": "Thoughtworks Style Theme",
 	"colors": {
-    // 编辑器背景与文本
     "editor.background": "#003d4f",
     "editor.foreground": "#edf1f3",
     "editor.lineHighlightBackground": "#003d4f",
@@ -15,8 +14,13 @@
     "editorRuler.foreground": "#003d4f",
     "editorBracketMatch.background": "#634f7d",
     "editorBracketMatch.border": "#edf1f3",
-    
-    // 活动栏与标题栏
+		"editorSuggestWidget.background": "#003d4f",
+    "editorSuggestWidget.border": "#6b9e78",
+    "editorSuggestWidget.selectedBackground": "#634f7d",
+    "editorSuggestWidget.selectedForeground": "#ffffff",
+		"editorHoverWidget.background": "#003d4f",
+    "editorHoverWidget.border": "#6b9e78",
+
     "activityBar.background": "#003d4f",
     "activityBar.foreground": "#edf1f3",
     "activityBarBadge.background": "#f2617a",
@@ -25,23 +29,20 @@
     "titleBar.activeForeground": "#f2617a",
     "titleBar.inactiveBackground": "#003d4f",
     "titleBar.inactiveForeground": "#edf1f3",
-    
-    // 侧边栏
+
     "sideBar.background": "#003d4f",
     "sideBar.foreground": "#edf1f3",
     "sideBarSectionHeader.background": "#003d4f",
     "sideBarSectionHeader.foreground": "#edf1f3",
     "sideBarTitle.foreground": "#edf1f3",
-    
-    // 状态栏
+
     "statusBar.background": "#f2617a",
     "statusBar.foreground": "#edf1f3",
     "statusBar.noFolderBackground": "#666666",
     "statusBar.noFolderForeground": "#edf1f3",
     "statusBar.debuggingBackground": "#cc850a",
     "statusBar.debuggingForeground": "#000000",
-    
-    // 终端
+
     "terminal.background": "#003d4f",
     "terminal.foreground": "#edf1f3",
     "terminal.ansiBlack": "#000000",
@@ -53,8 +54,7 @@
     "terminal.ansiCyan": "#003d4f",
     "terminal.ansiWhite": "#edf1f3",
     "terminalCursor.foreground": "#f2617a",
-    
-    // 输入框与列表
+
     "input.background": "#47a1ad",
     "input.foreground": "#edf1f3",
     "input.placeholderForeground": "#666666",
@@ -65,28 +65,26 @@
     "list.inactiveSelectionForeground": "#edf1f3",
     "list.hoverBackground": "#47a1ad",
     "list.hoverForeground": "#edf1f3",
-    
-    // 面板（控制台、输出窗口等）
+
     "panel.background": "#003d4f",
     "panel.border": "#6b9e78",
     "panelTitle.activeForeground": "#edf1f3",
     "panelTitle.inactiveForeground": "#666666",
-    
-    // 按钮
+
     "button.background": "#f2617a",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#cc850a",
-    
-    // 滚动条
+
+
     "scrollbarSlider.background": "#666666",
     "scrollbarSlider.hoverBackground": "#6b9e78",
     "scrollbarSlider.activeBackground": "#47a1ad",
-    
-    // 分隔线
+
+
     "activityBar.border": "#47a1ad",
     "sideBar.border": "#47a1ad",
     "editorGroup.border": "#47a1ad",
-		// tab
+
 		"tab.activeBackground": "#f2617a",
 		"tab.inactiveBackground": "#003d4f",
 		"tab.border": "#6b9e78",
@@ -151,8 +149,6 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				// "punctuation",
-				// "meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
