@@ -17,8 +17,9 @@ jobs:
         run: |
           curl https://mise.run | sh
           echo 'eval "$(~/.local/bin/mise activate bash --shims)"' >> ~/.bashrc
-          export PATH="$HOME/.mise/bin:$PATH"
           source ~/.bashrc
+      - name: Add mise to PATH
+        run: echo "/home/runner/.local/bin" >> $GITHUB_PATH
       - name: Install deps
         run: |
           mise install
