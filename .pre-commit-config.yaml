@@ -18,3 +18,8 @@ repos:
       - id: gitleaks
         stages:
           - pre-commit
+  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+    rev: 3.0.3  # pick a git hash / tag to point to
+    hooks:
+    -   id: editorconfig-checker
+        alias: ec
