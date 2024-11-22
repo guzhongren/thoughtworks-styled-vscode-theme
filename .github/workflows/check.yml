@@ -16,7 +16,7 @@ jobs:
       - name: Config env
         run: |
           curl https://mise.run | sh
-          echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
+          echo 'eval "$(~/.local/bin/mise activate bash --shims)"' >> ~/.bashrc && source ~/.bashrc
       - name: Run check
         run: |
           mise install
