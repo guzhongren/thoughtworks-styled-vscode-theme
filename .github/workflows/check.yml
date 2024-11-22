@@ -25,5 +25,5 @@ jobs:
           mise install
       - name: Run check
         run: |
-          mise exec pre-commit run --all-files --hook-stage pre-commit
-          mise exec pre-commit run --all-files --hook-stage pre-push
+          mise exec pre-commit run -- --all-files --hook-stage pre-commit
+          mise exec pre-commit run -- --all-files --hook-stage pre-push
