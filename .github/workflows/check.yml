@@ -13,10 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install
+      - name: Config env
         run: |
           curl https://mise.run | sh
           echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
+      - name: Run check
+        run: |
+          mise install
       - name: Run check
         run: |
           pre-commit run --all-files --hook-stage pre-commit
