@@ -89,8 +89,8 @@
 		"tab.inactiveBackground": "#003d4f",
 		"tab.border": "#6b9e78",
 		"editorGroupHeader.tabsBackground": "#003d4f",
-		"editorGroupHeader.border": "#003d4f"
-
+		"editorGroupHeader.border": "#003d4f",
+    "editorWidget.background": "#003d4f"
   },
 	"tokenColors": [
 		{

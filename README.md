@@ -28,3 +28,8 @@ npx vsce package
 npx vsce publish
 ```
 **Enjoy!**
+
+
+## Ref
+
+- https://github.com/microsoft/vscode/blob/main/src/vs/platform/theme/common/colors/editorColors.ts
