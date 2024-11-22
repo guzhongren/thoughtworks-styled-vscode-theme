@@ -21,6 +21,10 @@
 		"editorHoverWidget.background": "#003d4f",
     "editorHoverWidget.border": "#6b9e78",
 
+		"peekViewEditorStickyScroll.background": "#003d4f",
+		"peekViewTitle.background": "#003d4f",
+		"peekViewResult.background": "#003d4f",
+
     "activityBar.background": "#003d4f",
     "activityBar.foreground": "#edf1f3",
     "activityBarBadge.background": "#f2617a",
