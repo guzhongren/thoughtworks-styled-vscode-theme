@@ -32,6 +32,8 @@ Create a [PAT](https://code.visualstudio.com/api/working-with-extensions/publish
 vsce login <publisher id>
 npx vsce publish
 ```
+
+See the verification status [here](https://marketplace.visualstudio.com/manage/publishers)
 **Enjoy!**
 
 
