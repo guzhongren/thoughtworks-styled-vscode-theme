@@ -11,6 +11,7 @@ pnpm install
 
 ```sh
 rm *.vsix
+# Update version in package.json
 npx vsce package
 ```
 
