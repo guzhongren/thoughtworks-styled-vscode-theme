@@ -20,10 +20,11 @@ jobs:
           source ~/.bashrc
       - name: Add mise to PATH
         run: echo "/home/runner/.local/bin" >> $GITHUB_PATH
-      - name: Install deps
+      - name: Install infra
         run: |
           mise install
+          mise use -g pre-commit
       - name: Run check
         run: |
-          mise exec pre-commit -- run --all-files --hook-stage pre-commit
-          mise exec pre-commit -- run --all-files --hook-stage pre-push
+          pre-commit -- run --all-files --hook-stage pre-commit
+          pre-commit -- run --all-files --hook-stage pre-push
