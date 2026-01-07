@@ -27,11 +27,8 @@ npx vsce package
 
 Create a [PAT](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token)
 
-
 ```sh
-# build .vsix before publishing
-vsce login <publisher id>
-npx vsce publish
+./scripts/release
 ```
 
 See the verification status [here](https://marketplace.visualstudio.com/manage/publishers)

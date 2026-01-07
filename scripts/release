@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+
+rm -f ./*.vsix
+echo "🔔 Update version in package.json"
+npx vsce package
+npx vsce publish -p "$VSCE_PAT"
+
+echo "🎊 See the publish via https://marketplace.visualstudio.com/manage/publishers"
