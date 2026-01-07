@@ -5,7 +5,7 @@
   "repository": "https://github.com/guzhongren/thoughtworks-styled-vscode-theme",
   "publisher": "guzhongren",
   "LICENSE": "MIT",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "icon": "icons/icon.drawio.png",
   "engines": {
     "vscode": "^1.95.0"
