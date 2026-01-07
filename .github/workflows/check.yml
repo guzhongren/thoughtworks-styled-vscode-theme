@@ -24,8 +24,8 @@ jobs:
         run: |
           mise install
           mise use -g pre-commit
-          eval "$(~/.local/bin/mise activate bash --shims)"
       - name: Run check
         run: |
+          eval "$(~/.local/bin/mise activate bash --shims)"
           pre-commit -- run --all-files --hook-stage pre-commit
           pre-commit -- run --all-files --hook-stage pre-push
