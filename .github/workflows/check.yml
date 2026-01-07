@@ -20,12 +20,14 @@ jobs:
           source ~/.bashrc
       - name: Add mise to PATH
         run: echo "/home/runner/.local/bin" >> $GITHUB_PATH
-      - name: Install infra
-        run: |
-          mise install
-          mise use -g pre-commit
-      - name: Run check
-        run: |
-          eval "$(~/.local/bin/mise activate bash --shims)"
-          pre-commit run --all-files --hook-stage pre-commit
-          pre-commit run --all-files --hook-stage pre-push
+      - uses: actions/setup-python@v6
+      - uses: pre-commit/action@v3.0.1
+        # - name: Install infra
+      #   run: |
+      #     mise install
+      #     mise use -g pre-commit
+      # - name: Run check
+      #   run: |
+      #     eval "$(~/.local/bin/mise activate bash --shims)"
+      #     pre-commit run --all-files --hook-stage pre-commit
+      #     pre-commit run --all-files --hook-stage pre-push
